@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".scores_fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/high_score"
+            android:layout_margin="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="@string/high_score"/>
+
+        <TextView
+            android:id="@+id/normalMode_highScore"
+            android:layout_below="@id/high_score"
+            android:layout_margin="10dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/normalMode_highScore"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/fastMode_highScore"
+            android:layout_below="@id/normalMode_highScore"
+            android:layout_margin="10dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/fastMode_highScore"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/quickMode_highScore"
+            android:layout_below="@id/fastMode_highScore"
+            android:layout_margin="10dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/quickMode_highScore"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+
+</FrameLayout>

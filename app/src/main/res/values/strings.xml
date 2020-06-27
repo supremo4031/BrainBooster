@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Brain Booster</string>
+    <string name="play">Play</string>
+    <string name="modes">Modes</string>
+    <string name="scores">Scores</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="share">Share</string>
+    <string name="tutorial">Tutorial</string>
+    <string name="normal_mode">Normal Mode</string>
+    <string name="fast_mode">Fast Mode</string>
+    <string name="quick_mode">Quick Mode</string>
+    <string name="timer">Time : </string>
+    <string name="question_number">Question :</string>
+    <string name="mode">Normal Mode</string>
+    <string name="question">The Value of 2 + 3 =</string>
+    <string name="first_answer">First Answer</string>
+    <string name="second_answer">Second Answer</string>
+    <string name="third_answer">Third Answer</string>
+    <string name="fourth_answer">Fourth Answer</string>
+    <string name="score">Score :</string>
+    <string name="exit">Exit</string>
+    <string name="next_version">!! Stay Tuned !! \n \n !! will be available in the next vesion !! \n \n @supremo</string>
+    <string name="high_score">HIGH SCORE</string>
+    <string name="normalMode_highScore">Normal Mode : 0</string>
+    <string name="fastMode_highScore">Fast Mode : 0</string>
+    <string name="quickMode_highScore">Quick Mode : 0</string>
+
+    <string name="tutorialText">
+        Modes : \n \n
+        1) Normal Mode : \n
+          \t \t Question will be displayed with four options.
+            Click the right one and your score will be
+            increased by one. If you want to quit then
+            press the Exit Button. \n \n
+        2) Fast Mode : \n
+           \t \t There will be a countdown of 60 seconds.
+            Rest is just like normal mode. Try to
+            solve as much as you can. \n \n
+        3) Quick Mode : \n
+           \t \t In this Mode to solve one problem you will
+            have 5 seconds and then question will be
+            changed. \n
+    </string>
+</resources>

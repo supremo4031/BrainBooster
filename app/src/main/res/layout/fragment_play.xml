@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".play_fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_centerInParent="true"
+            android:padding="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/play_button"
+                android:padding="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/background_button"
+                android:textColor="#FFFFFF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="@string/play" />
+
+            <Button
+                android:id="@+id/share_button"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:layout_below="@id/play_button"
+                android:background="@drawable/background_button"
+                android:textColor="#FFFFFF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="@string/share" />
+
+            <Button
+                android:id="@+id/tutorial_button"
+                android:padding="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/share_button"
+                android:background="@drawable/background_button"
+                android:textColor="#FFFFFF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="@string/tutorial" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>
